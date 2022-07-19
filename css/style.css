@@ -1,0 +1,87 @@
+/*=====================
+      Google fonts 
+   ====================*/ 
+   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+   /*============================
+      Common and reuseable styles
+   ==========================*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html{
+   font-size: 62.5%;
+}
+body{
+   font-family: "Poppins" , sans-serif;
+   max-width: 100%;
+}
+a{
+   text-decoration: none;
+}
+h1{
+   font-size: 5rem;
+   color: #fff;
+}
+h1,h2,h3,h4,h5,h6{
+   font-weight: 700;
+   text-transform: capitalize;
+   margin: 1rem 0;
+}
+p{
+   font-size: 1.6rem;
+   line-height: 1.6em;
+}
+.flexible{
+   display: flex;
+}
+.half-width{
+   width: 50%;
+}
+.btn{
+   background: #DD0000;
+   padding: 1rem 2rem;
+   display: inline-block;
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+   color: #fff;
+   margin-top: 2rem;
+   font-size: 1.6rem;
+}
+
+/*=============================
+   Header section styles
+==============================*/
+#header{
+   padding: 2rem 5rem;
+}
+.header-container{
+   justify-content:center;
+   align-items: center;
+   background: rgb(59, 46, 94);
+   border-radius: 1rem;
+   -webkit-border-radius: 1rem;
+   -moz-border-radius: 1rem;
+   -ms-border-radius: 1rem;
+   -o-border-radius: 1rem;
+   height: 55rem;
+   padding:5rem 3rem 0rem;
+
+}
+.header-container .half-width p{
+   color: #fff;
+}
+
+.header-container .header-banner {
+   display: flex;
+   justify-content: center;
+   align-items: center;   
+}
+.header-container .header-banner img {
+   width: 85.5%;
+}
