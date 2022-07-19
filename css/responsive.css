@@ -1,0 +1,42 @@
+/********************************
+      Tablet view 
+**********************************/
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+   html{
+      font-size: 40%;
+   }
+  
+  
+}
+
+
+/********************************
+      mobile view 
+**********************************/
+@media only screen and (max-width:687px) {
+      html{
+      font-size: 38%;
+   }
+   .header-container{
+      flex-direction: column;
+      row-gap: 2rem;
+   }  
+   .half-width{
+      width:75%;
+      text-align: center;
+   }
+   .header-container .header-banner img{
+      width: 60%;
+      
+   }  
+
+   /*for ellipsis paragraph or text*/ 
+   #header p{
+      height:2.5rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    
+}
