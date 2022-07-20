@@ -60,7 +60,7 @@ p{
    -o-border-radius: 1rem;
    color: #fff;
    margin: 1rem 0;
-   font-size: 1.6rem;
+   font-size: 1.6rem;   
 }
 .fa-solid{
    padding:0rem 0.5rem;
@@ -99,7 +99,37 @@ p{
 .header-container .header-banner img {
    width: 85.5%;
 }
-/* Content section strat*/
+.hero-btn{
+   animation: color-change 5s linear infinite ;
+   -webkit-animation: color-change 5s linear infinite;
+}
+@keyframes color-change {
+  0%{
+   background: #DD0000;
+  }
+  25%{
+      transform: rotate(10deg);
+      -webkit-transform: rotate(10deg);
+      -moz-transform: rotate(10deg);
+      -ms-transform: rotate(10deg);
+      -o-transform: rotate(10deg);
+      
+}
+50%{
+   transform: rotate(-10deg);
+   -webkit-transform: rotate(-10deg);
+   -moz-transform: rotate(-10deg);
+   -ms-transform: rotate(-10deg);
+   -o-transform: rotate(-10deg);
+}
+100%{
+   background: rgb(94, 255, 1);
+   color: rgb(255, 255, 255);   
+  }
+}
+/* ==============================
+   Content section strat
+   =============================*/
 #all-content{
    padding: 6rem 5rem;
 }
@@ -217,6 +247,7 @@ Upcoming page Team sections Styles
 }
 .live-details{
    text-align: center;
+   text-transform: capitalize;
 }
 .live-details h3{
    font-size: 2rem;
