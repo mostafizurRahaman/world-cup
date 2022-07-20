@@ -30,6 +30,9 @@
    .contents{
       grid-template-columns: repeat(2,1fr);
    }
+   .content-details .people-reaction{
+      width: 50%;
+   }
    .view-all-btn{
    display: inline-block;
    
@@ -99,6 +102,9 @@
    }
    .contents{
       grid-template-columns: repeat(1,1fr);
+   }
+   .content-details .people-reaction{
+      width: 50%;
    }
 
    /*=======================

@@ -138,6 +138,14 @@ p{
   -o-border-radius: 1rem;
   text-transform: capitalize;
   padding: 0;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.content_controller .controller:hover{
+   background: #DD0000;
 }
 .contents{
    display: grid;
@@ -181,7 +189,7 @@ p{
    font-size: 1.6rem;
 }
 .content-details .people-reaction{
-   width: 60%;
+   width: 80%;
    justify-content: space-between;
   
 }
@@ -234,4 +242,46 @@ p{
 .footer-menu li a{
   color: #B9B9B9;
   display: block;
+}
+.social-site ul{
+   list-style-type: none; 
+   margin-top: 3rem;
+ }
+.social-site ul li{
+   margin-left: 2rem;
+   border-radius: 50%;
+   -webkit-border-radius: 50%;
+   -moz-border-radius: 50%;
+   -ms-border-radius: 50%;
+   -o-border-radius: 50%;
+   background: rgb(93, 91, 91);
+   width: 3.5rem;
+   height: 3.5rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   transition: all 0.5s ease-in;
+   -webkit-transition: all 0.5s ease-in;
+   -moz-transition: all 0.5s ease-in;
+   -ms-transition: all 0.5s ease-in;
+   -o-transition: all 0.5s ease-in;
+}
+.social-site ul li a{
+  color: #fff;
+  display: block;
+  transition: all 0.5s ease-in;
+  -webkit-transition: all 0.5s ease-in;
+  -moz-transition: all 0.5s ease-in;
+  -ms-transition: all 0.5s ease-in;
+  -o-transition: all 0.5s ease-in;
+}
+.social-site ul li:hover {
+   background: orange;
+}
+.social-site ul li:hover  a i {
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
 }
