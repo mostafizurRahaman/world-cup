@@ -193,8 +193,13 @@ p{
   -moz-border-radius: 1rem;
   -ms-border-radius: 1rem;
   -o-border-radius: 1rem;
-  
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
 }
+
 .contents .content img{
    width: 100%;
    border-radius: 1rem;
@@ -256,6 +261,9 @@ Upcoming page Team sections Styles
 .live-details p{
   color: #4D4D4D;
 }
+.content:hover,.lives:hover{
+   background: rgba(164, 203, 248, 0.651);
+}
 /* view btns styles here */
 .view-section{
    width: 100%;
@@ -276,7 +284,7 @@ Upcoming page Team sections Styles
 ==============================*/ 
 #footer{
    padding: 8rem 5rem;
-   background:#161616; 
+   background:rgb(59, 46, 94);
    flex-direction: column;
    align-items: center;
 }
@@ -301,6 +309,14 @@ Upcoming page Team sections Styles
 .footer-menu li a{
   color: #B9B9B9;
   display: block;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+.footer-menu li a:hover{
+ color: #fff;
 }
 .social-site ul{
    list-style-type: none; 
