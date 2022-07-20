@@ -6,6 +6,14 @@
    html{
       font-size: 40%;
    }
+   /*for ellipsis paragraph or text*/ 
+   #header p{
+      height:2.5rem;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    
    /*content section */ 
    #all-content .container{
       flex-direction: column;

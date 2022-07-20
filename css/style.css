@@ -147,6 +147,7 @@ p{
 .content_controller .controller:hover{
    background: #DD0000;
 }
+
 .contents{
    display: grid;
    grid-template-columns: repeat(3,1fr);
@@ -196,6 +197,33 @@ p{
 .content-details .people-reaction p,
 .content-details .people-reaction p i{
    color: #343333;  
+}
+
+/*==============================
+Upcoming page Team sections Styles 
+==================================*/
+.lives{
+   padding: 4rem 1rem; 
+   
+}
+.team{
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.team .first-team,
+.team .second-team{
+   width: 40%;
+}
+.live-details{
+   text-align: center;
+}
+.live-details h3{
+   font-size: 2rem;
+   margin-bottom: 0;
+}
+.live-details p{
+  color: #4D4D4D;
 }
 /* view btns styles here */
 .view-section{
