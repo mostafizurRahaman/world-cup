@@ -189,15 +189,49 @@ p{
 .content-details .people-reaction p i{
    color: #343333;  
 }
+/* view btns styles here */
 .view-section{
    width: 100%;
    overflow: hidden;
 }
 .view-all-btn{
    display: none;
+   margin: 0 auto;
+   padding: 1.5rem 3rem
 }
 .view-btn-wrapper{
    display: flex;
    justify-content: center;
    align-items: center;
+}
+/*============================
+      footer section sytles
+==============================*/ 
+#footer{
+   padding: 8rem 5rem;
+   background:#161616; 
+   flex-direction: column;
+   align-items: center;
+}
+#footer h2{
+   color: #fff;
+   font-size: 3.5rem;
+   text-transform: uppercase;
+}
+#footer hr{
+   width: 95%;
+   background: linear-gradient(rgba(189, 183, 183, 0.1),rgba(255, 255, 255, 0.2));
+   margin: 3rem 0;
+}
+.footer-menu{
+  justify-content: space-between;
+  gap: 2rem;
+  list-style-type: none;
+}
+.footer-menu li{
+   padding-left: 1rem;
+}
+.footer-menu li a{
+  color: #B9B9B9;
+  display: block;
 }
