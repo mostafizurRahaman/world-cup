@@ -176,6 +176,7 @@ p{
 }
 .content_controller .controller:hover{
    background: #DD0000;
+   color: #fff;
 }
 
 .contents{
